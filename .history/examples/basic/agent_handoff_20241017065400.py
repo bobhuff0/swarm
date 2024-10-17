@@ -18,7 +18,6 @@ def transfer_to_spanish_agent():
     return spanish_agent
 
 
-
 english_agent.functions.append(transfer_to_spanish_agent)
 
 messages = [{"role": "user", "content": "Hola. ¿Como estás?"}]
